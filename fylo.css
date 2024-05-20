@@ -117,22 +117,20 @@ p {
   box-shadow: 0px 0px 10px rgb(197, 184, 184); 
   max-width: 100%; 
   margin-top: 20px; 
-  margin-bottom: 20px";
+  margin-bottom: 20px;
 }
 h3 {
   color: white;
   font-weight: 300;
 }
-.container,
-.p {
+.container-p {
   color: white;
   justify-content: space-between;
   font-size: 16px;
   line-height: 1.5;
-  max-width: 100%;
+  max-width: 50%;
 }
 .container {
-  margin-top: 20px;
   max-width: 100%;
   padding: 50px;
 }
@@ -146,20 +144,22 @@ footer {
 .section4-input {
   display: flex;
   flex-direction: column;
+  border-color: #fff;
   color: #fff;
   font-size: small;
-}
-.section4-input,
-input {
-  width: 350px;
-  height: 70px;
+  width: 370px;
+  height: 30px;
   border-radius: 3px;
   box-shadow: 0px 2px px rgb(214, 212, 212);
 }
+div.container-input{
+  margin-left: 150px;
+}
 .btn2 {
   width: 150px;
-  height: 70px;
+  height: 30px;
   margin-top: 10px;
+  margin-right: 90px;
   border-radius: 3px;
   box-shadow: 0px 2px 1px hsl(224, 93%, 52%);
 }
@@ -240,10 +240,10 @@ ul {
   button {
     width: 360px;
   }
+  h1,
   .hero3-heading {
-    font-size: x-small;
+    font-size: large;
     font-weight: 400;
-    width: 360px;
   }
   .hero-section2 {
     display: block;
@@ -252,7 +252,8 @@ ul {
   .hero3,
   p {
     text-align: left;
-    font-size: small;
+    font-size: 16px;
+    font-weight: 400;
   }
   .hero3,
   .arrow {
@@ -264,59 +265,59 @@ ul {
     margin-bottom: 30px;
     padding: 3px;
   }
-  .box-quote,
-  .p {
-    width: 360px;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 15px;
-  }
-  .container {
-    max-width: 360px;
-    padding: 0px;
-    height: 250px;
-    justify-content: center;
-    flex: none;
-  }
-  .container,
-  h3 {
-    text-align: center;
-    font-size: 16px;
-
-    margin-top: 5px;
-  }
-  .container,
-  p {
-    font-size: 16px;
-  }
-  .section4-input,
-  .btn2 {
-    width: 360px;
+  .box-quote {
+    width: 250px;
     height: 50px;
+    font-size: small;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 40px;
   }
-  .container,
-  .section4-input {
-    width: 360px;
-    margin: 0px;
-    flex: none;
-    align-content: center;
+  .avatar-p {
+    margin-left: 20px;
   }
-  .section4-input,
-  input {
-    align-items: center;
-    width: 360px;
+  section.container {
+    max-width: 370px;
+    height: 400px; 
+    margin-top: 90px;
+    padding: 0%;
+   text-align: center;
+ 
   }
-  .section4-input,
-  h3 {
-    align-content: center;
-    width: 360px;
+  .container-p,h3,p {
+    
+  align-items: center;
+   width: 350px;
+   font-weight: 400;
+  
   }
-
-  .section4-input,
-  p {
-    justify-content: center;
-  }
-
+div.container-p{
+  margin-bottom: 130px;
+  max-width: 350px;
+  font-size: 16px;
+}
+div.container-p,p{
+  margin-left: 8px;
+}
+div.container-input{
+margin-left: -300px;
+margin-top: 210px;
+padding: 0%;
+}
+input.section4-input{
+  width: 250px;
+}
+button.btn2{
+  width: 260px;
+  margin-top: 8px;
+}
   footer {
+    height: 500px;
+   flex: none;
+   width: 360px;
+ 
   }
+div.footer-body{
+  height: 490px;
 }
