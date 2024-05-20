@@ -171,6 +171,20 @@ ul {
   display: flex;
   gap: 15%;
 }
+.f-phone{
+display:flex; 
+gap: 20px;
+ margin-bottom: 10px;
+}
+.f-email{
+display:flex; 
+gap: 20px; 
+margin-bottom: 10px; 
+align-items: center;
+}
+.f-socials{
+  font-size: 16px;
+}
 
 @media screen and (max-width: 375px) {
   body {
@@ -313,11 +327,31 @@ button.btn2{
   margin-top: 8px;
 }
   footer {
-    height: 500px;
-   flex: none;
-   width: 360px;
+    height: 600px;
+   width: 220px;
  
   }
 div.footer-body{
-  height: 490px;
+  height: 400px;
+  font-size: small;
+  display: block;
+}
+div.f2{
+justify-content: left; 
+
+}
+ul{
+ margin-left: 0;
+ padding-left: 0;
+}
+.f-phone{
+margin-bottom: 55px;
+
+}
+.f-email{
+margin-top: -63px;
+}
+div,f2{
+  margin-bottom: 50px;
+}
 }
